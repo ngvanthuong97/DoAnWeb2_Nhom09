@@ -1,0 +1,124 @@
+@font-face{
+	font-family: bebasneue;
+	src:url("../font/BebasNeueBold.ttf");
+}
+@font-face{
+	font-family: helveticaneue;
+	src:url("../font/helveticaneue.ttf");
+}
+
+div.modal-content{
+	top: 70px;
+}
+
+#sizeimg{
+	padding-top: 15px;
+}
+
+#ColorSelect{
+	background: LightGray;
+
+}
+
+#fixtop{
+	margin-top: 100px;
+}
+
+#fixNav{
+  width: 90%;
+  height: 35px;
+  position: fixed; /*Cho menu cố định 1 vị trí với top và left*/
+  top: 0; /*Nằm trên cùng*/
+  padding-right: 74px;
+  z-index: 100000; /*Hiển thị lớp trên cùng*/
+}
+
+#tabSignIn, #tabRegister{
+	width: 50%;
+	margin-left: 300px;
+}
+
+#imgSignIn{
+	margin-left: 200px;
+}
+
+#tabRegister{
+	width: 50%;
+	margin-left: 300px;
+}
+
+.navbar-default .navbar-nav>li>a{
+	font-family: bebasneue;
+	font-size: 18px;
+	color: white;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+	color: black;
+}
+.container-fluid{
+	background: #1ab7ea;
+}
+.dropdown-menu>li>a{
+	font-family: bebasneue;
+	font-size: 18px;
+	color: #1ab7ea;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
+	background: none;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{
+	background: #1ab7ea;
+}
+.navbar-nav>li>a{
+	padding-top: 20px;
+}
+.navbar-default{
+	border: none;
+}
+.navbar{
+	margin-bottom: 8px;
+}
+.nav>li>a{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+footer{
+	background: #1ab7ea;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-top: 30px;
+}
+footer h4{
+	font-family: bebasneue;
+	color: #fff;
+	font-size: 20px;
+}
+.clearfix{
+	overflow: hidden;
+	clear: both;
+}
+footer p{
+	color: #fff;
+	font-family: bebasneue;
+	font-size: 18px;
+}
+footer ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	color: #fff;
+}
+footer ul li{
+	margin-bottom: 10px;
+	color: #fff;
+}
+footer a{
+	color: #fff;
+}
+.btn-info{
+	background-color: #1ab7ea;
+}
+p{
+	font-size: 22px;
+}
